@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Beautiful Moments</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #ffe6e6;
+            color: #333;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            overflow: hidden;
+        }
+        .container {
+            max-width: 800px;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            position: relative;
+        }
+        h1 {
+            color: #ff3366;
+            font-size: 28px;
+        }
+        .message {
+            font-size: 20px;
+            margin: 20px 0;
+            font-style: italic;
+        }
+        .gallery {
+            position: relative;
+            width: 220px;
+            height: 403px;
+            margin: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .gallery img {
+            position: absolute;
+            width: 220px;
+            height:380px;
+            border-radius: 10px;
+            opacity: 0;
+            animation: fadeinout 18s infinite;
+        }
+        .gallery img:nth-child(1) { animation-delay: 0s; }
+        .gallery img:nth-child(2) { animation-delay: 3s; }
+        .gallery img:nth-child(3) { animation-delay: 6s; }
+        .gallery img:nth-child(4) { animation-delay: 9s; }
+        .gallery img:nth-child(5) { animation-delay: 12s; }
+        .gallery img:nth-child(6) { animation-delay: 15s; }
+        @keyframes fadeinout {
+            0% { opacity: 0; }
+            20% { opacity: 1; }
+            50% { opacity: 1; }
+            80% { opacity: 0; }
+            100% { opacity: 0; }
+        }
+        .btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 12px 24px;
+            background-color: #ff3366;
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            border-radius: 5px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .btn:hover {
+            background-color: #cc2954;
+        }
+        @keyframes float {
+            0% {
+                transform: translateY(100vh) scale(1);
+                opacity: 1;
+            }
+            100% {
+                transform: translateY(-10vh) scale(1.2);
+                opacity: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Every Moment With You is Precious</h1>
+        <p class="message">I cherish our love, our laughter, and our journey together. Please take a moment to remember what we share. Please stay, I promise you won't regret the journey ahead. Give me the last chance, either for us or for my birthday as a gift but please give me the chance, I beg to you, please!!</p>
+        <div class="gallery">
+            <img src="Moment1.jpg" alt="Our Beautiful Memory">
+            <img src="Moment2.jpg" alt="Our Beautiful Memory">
+            <img src="Moment3.jpg" alt="Our Beautiful Memory">
+            <img src="moment4.jpg" alt="Our Beautiful Memory">
+            <img src="moment5.jpg" alt="Our Beautiful Memory">
+            <img src="moment6.jpg" alt="Our Beautiful Memory">
+        </div>
+<div>
+    <iframe style="border-radius:12px; margin-top: 20px;" src="https://open.spotify.com/embed/track/0gPgdRfB4jdGrlyXS0Vx78?utm_source=generator" width="30%" height="122" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+</div>
+        <br>
+        <div><a href="https://api.whatsapp.com/send?phone=123456789&text=I%20truly%20believe%20we%20can%20work%20this%20out.%20Please%20talk%20to%20me." class="btn">Let's Talk</a></div>
+    </div>
+</body>
+</html>
